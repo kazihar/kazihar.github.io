@@ -1,0 +1,260 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand;
+    background: rgb(255, 255, 255);
+    background: url("712774.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container
+{
+    position: relative;
+    width: 1200px;
+    height: 400px;
+    margin: 240px auto;
+}
+
+.container .box
+{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(400px - 30px);
+    background: rgb(0, 0, 0);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container .box .icon
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(17, 71, 250);
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.container .box:hover .icon
+{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%
+}
+
+.container .box .icon .fa
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.container .box:hover .icon .fa
+{
+    font-size: 40px;
+}
+
+.container .box .content
+{
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.container .box:hover .content
+{
+    top: 100px;
+    opacity: 1;
+}
+
+.container .box .content h3
+{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.container .box .content ul
+{
+    text-align: center;
+    display: -webkit-inline-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    zoom: 1;
+}
+
+.container .box .content ol
+{
+    text-align: left;
+    display: -webkit-inline-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    zoom: 1;
+}
+
+.container .box .content li
+{
+    display: inline;
+    padding: 1px 70px;
+    color: #fff;
+}
+
+.container .box .content li i
+{
+    display: inline;
+    padding: 1px 70px;
+    color: #fff;
+    font-size: 50px;
+}
+
+
+
+.container .box .content p
+{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.container .box:nth-child(1) .icon
+{
+    background: #cecb0d8c;
+}
+
+.container .box:nth-child(1)
+{
+    background: #e2df1e8e;
+}
+
+.container .box:nth-child(2) .icon
+{
+    background: #d3247b86;
+}
+
+.container .box:nth-child(2)
+{
+    background: #ec3aa88a;
+}
+
+.container .box:nth-child(3) .icon
+{
+    background: #5e238e75;
+}
+
+.container .box:nth-child(3)
+{
+    background: #7f32a381;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+nav
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+nav.black
+{
+    background: rgba(0, 0, 0, 0.8);
+    height: 100px;
+    padding: 10px 100px;
+
+}
+
+nav .logo
+{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    transition: 0.3s;
+
+}
+
+nav.black .logo
+{
+    color: #fff;
+}
+
+nav ul
+{
+    list-style: none;
+    float: right;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li
+{
+    list-style: none;
+}
+
+nav ul li a
+{
+    line-height: 80PX;
+    color: #949494;
+    padding: 12PX 30PX;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+nav.black ul li a
+{
+    color: #fff;
+}
+
+nav ul li a:focus
+{
+    outline: none;
+}
+
+nav ul li a:active 
+{
+    background: #e2472f;
+    color: #fff;
+    border-radius: 6px;
+}
+
+section.secl
+{
+    width: 100%;
+    height: 75vh;
+}
+
+.content0
+{
+    margin-top: 80px;
+}
